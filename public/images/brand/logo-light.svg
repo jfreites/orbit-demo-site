@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="88" viewBox="0 0 330 88" role="img" aria-label="Monte Ocre">
+  <circle cx="50" cy="34" r="17" fill="#E8B04B"/>
+  <path d="M6 74 L36 30 L50 50 L60 40 L92 74 Z" fill="#2F7D62"/>
+  <path d="M36 30 L42 39 L36 44 L31 37 Z" fill="#F7F2E8" opacity=".9"/>
+  <text x="106" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="38" letter-spacing=".5" fill="#F7F2E8">Monte <tspan fill="#F0C9A8" font-style="italic">Ocre</tspan></text>
+</svg>

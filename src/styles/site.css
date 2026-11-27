@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "@orbit-cms/core/site/styles/site-core.css";
+
+/* Fuentes self-hosted (Fontsource, OFL) */
+@import "@fontsource-variable/fraunces";
+@import "@fontsource-variable/instrument-sans";
+
+/*
+ * Monte Ocre (marca ficticia): verde bosque, crema, terracota y ocre.
+ * Contrastes WCAG verificados: ver CREDITS.md / propuesta de la Etapa 3.
+ */
+@theme {
+	--color-primary: #1f3b33;
+	--color-on-primary: #f7f2e8;
+	--color-text: #23302b;
+	--color-surface: #fbf8f2;
+	--color-surface-muted: #efe7d8;
+	--color-heading: #b65a32;
+	--color-on-heading: #ffffff;
+	--color-highlight: #e8b04b;
+	--color-on-highlight: #1f3b33;
+	--color-accent: #2f7d62;
+	--color-on-accent: #ffffff;
+	--color-footer-text: #f0c9a8; /* heading no contrasta con primary (2.6:1) */
+	/* --color-focus-on-primary: se deja el default (on-primary): contrasta con primary y con el overlay accent */
+
+	--font-sans: "Instrument Sans Variable", ui-sans-serif, system-ui, sans-serif;
+	--font-heading: "Fraunces Variable", ui-serif, Georgia, serif;
+	--font-nav: "Instrument Sans Variable", ui-sans-serif, system-ui, sans-serif;
+
+	--radius-button: 0.25rem;
+}
+
+:root {
+	--container-max: 1240px;
+	--deco-title-mask: url("/images/deco/title.svg");
+	--deco-title-ratio: 3;
+	--deco-tagline-mask: url("/images/deco/tagline.svg");
+	--deco-tagline-ratio: 0.5;
+	/* Las fotos no traen el degradado del diseño: el hero lo pone */
+	--hero-overlay: linear-gradient(
+		90deg,
+		color-mix(in oklab, var(--color-primary) 88%, transparent) 0%,
+		color-mix(in oklab, var(--color-primary) 60%, transparent) 42%,
+		transparent 72%
+	);
+}

@@ -1,0 +1,6 @@
+# Proyecto independiente (sin workspace): solo ajustes de pnpm
+minimumReleaseAgeExclude:
+  - "@types/node@24.19.4"
+  - lucide-static@1.80.0
+allowBuilds:
+  esbuild: true

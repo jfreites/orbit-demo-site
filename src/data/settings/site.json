@@ -1,0 +1,32 @@
+{
+	"site_name": "Monte Ocre",
+	"locale": "es-MX",
+	"tagline": "Espacios que respiran",
+	"theme_color": "#1F3B33",
+	"logo": { "src": "/images/brand/logo.svg", "alt": "Monte Ocre" },
+	"logo_light": { "src": "/images/brand/logo-light.svg", "alt": "Monte Ocre" },
+	"social": {
+		"instagram": "https://www.instagram.com/",
+		"linkedin": "https://www.linkedin.com/",
+		"youtube": "https://www.youtube.com/"
+	},
+	"contact": {
+		"email": "hola@monteocre.example",
+		"whatsapp": {
+			"number": "520000000000",
+			"message": "Hola, me gustaría platicar sobre un proyecto.",
+			"floating_button": true
+		}
+	},
+	"legal_links": [
+		{ "label": "Aviso de privacidad", "href": "/aviso-de-privacidad" },
+		{ "label": "Legalidad", "href": "/legalidad" }
+	],
+	"ui": {
+		"write_to_us": "Escríbenos:",
+		"whatsapp_link": "Platiquemos por\nWhatsApp",
+		"not_found": {
+			"message": "Esta página no existe o se mudó. Mientras tanto, el jardín sigue creciendo."
+		}
+	}
+}

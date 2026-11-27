@@ -1,0 +1,15 @@
+{
+	"seo": {
+		"title": "Aviso de privacidad — Monte Ocre",
+		"description": "Cómo tratamos los datos personales que nos compartes."
+	},
+	"blocks": [
+		{
+			"type": "rich_text",
+			"data": {
+				"title": "Aviso de privacidad",
+				"body": "_Texto de demostración. Monte Ocre es una marca ficticia y este aviso no tiene validez legal._\n\n## Quién es responsable de tus datos\n\nMonte Ocre (\"el Estudio\") es responsable del tratamiento de los datos personales que nos compartes a través de este sitio, por correo o por WhatsApp.\n\n## Qué datos recabamos\n\n- Nombre y datos de contacto (correo y teléfono).\n- Información sobre tu proyecto: ubicación aproximada, tipo de obra y presupuesto estimado.\n\nNo recabamos datos sensibles.\n\n## Para qué los usamos\n\n1. Responder tus solicitudes de información y cotización.\n2. Dar seguimiento a los proyectos contratados.\n3. Enviarte, solo si lo autorizas, noticias del Estudio.\n\n## Tus derechos\n\nPuedes acceder, rectificar, cancelar u oponerte al uso de tus datos escribiendo a **hola@monteocre.example**. Respondemos en un plazo máximo de 20 días hábiles.\n\n## Cambios a este aviso\n\nPublicaremos cualquier cambio en esta misma página.\n\n> Última actualización: noviembre de 2026."
+			}
+		}
+	]
+}

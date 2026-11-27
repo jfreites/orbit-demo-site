@@ -1,0 +1,131 @@
+{
+	"seo": {
+		"title": "Monte Ocre — Estudio de arquitectura y paisaje",
+		"description": "Diseñamos casas, interiores y jardines con materiales locales, luz natural y ventilación cruzada.",
+		"og_image": { "src": "/images/og.jpg", "alt": "Casa con jardín diseñada por Monte Ocre" }
+	},
+	"blocks": [
+		{
+			"type": "hero_slider",
+			"data": {
+				"autoplay_seconds": 7,
+				"slides": [
+					{
+						"image": { "src": "/images/hero/slide-1.jpg", "alt": "Casa de piedra y concreto con ventanales frente a un jardín" },
+						"image_mobile": { "src": "/images/hero/slide-1-mobile.jpg", "alt": "Casa de piedra y concreto con ventanales frente a un jardín" },
+						"tagline": "Espacios que respiran",
+						"tagline_style": "highlight",
+						"text": "Diseñamos casas, oficinas y jardines\nque se sienten tan bien como se ven.",
+						"cta": { "label": "Conoce nuestros servicios", "href": "#servicios" }
+					},
+					{
+						"image": { "src": "/images/hero/slide-2.jpg", "alt": "Patio de concreto con plantas y sombras geométricas" },
+						"image_mobile": { "src": "/images/hero/slide-2-mobile.jpg", "alt": "Patio de concreto con plantas y sombras geométricas" },
+						"tagline": "Arquitectura con raíz",
+						"tagline_style": "heading",
+						"text": "Materiales locales, luz natural y ventilación cruzada\ndesde el primer trazo."
+					},
+					{
+						"image": { "src": "/images/hero/slide-3.jpg", "alt": "Patio con fuente rodeado de vegetación" },
+						"image_mobile": { "src": "/images/hero/slide-3-mobile.jpg", "alt": "Patio con fuente rodeado de vegetación" },
+						"tagline": "Del plano al jardín, sin intermediarios",
+						"tagline_style": "accent",
+						"tagline_size": "sm",
+						"text": "Acompañamos cada proyecto\nhasta la última planta sembrada."
+					}
+				]
+			}
+		},
+		{
+			"type": "text_with_image",
+			"data": {
+				"anchor": "nosotros",
+				"nav_label": "Nosotros",
+				"show_in_nav": true,
+				"title": "Quiénes somos",
+				"intro": "Somos un estudio pequeño de arquitectas, paisajistas e ingenieros que cree que una buena casa empieza por escuchar el terreno.",
+				"items": [
+					"Proyectos a la medida, del anteproyecto a la entrega de llaves.",
+					"Materiales de la región y procesos con menor huella.",
+					"Un solo equipo para la casa, los interiores y el jardín."
+				],
+				"image": { "src": "/images/nosotros.jpg", "alt": "Sala con piso de madera y plantas" },
+				"image_position": "right",
+				"separator_after": "gradient"
+			}
+		},
+		{
+			"type": "statement",
+			"data": { "text": "Construimos menos muros y más lugares para quedarse." }
+		},
+		{
+			"type": "card_grid",
+			"data": {
+				"anchor": "servicios",
+				"nav_label": "Servicios",
+				"show_in_nav": true,
+				"title": "Servicios",
+				"columns": 4,
+				"cards": [
+					{
+						"image": { "src": "/images/servicios/residencial.jpg", "alt": "Casa contemporánea con jardín" },
+						"label": "Arquitectura residencial",
+						"description": "Casas nuevas pensadas para el clima y la forma de vivir de cada familia.",
+						"link": { "label": "Ver más", "href": "mailto:hola@monteocre.example" }
+					},
+					{
+						"image": { "src": "/images/servicios/interiores.jpg", "alt": "Sala con muebles de madera" },
+						"label": "Interiores",
+						"description": "Espacios cálidos con mobiliario a la medida y luz bien resuelta.",
+						"link": { "label": "Ver más", "href": "mailto:hola@monteocre.example" }
+					},
+					{
+						"image": { "src": "/images/servicios/paisajismo.jpg", "alt": "Jardín con fuente y muro cubierto de hiedra" },
+						"label": "Paisajismo",
+						"description": "Jardines con especies nativas que piden poca agua y mucho cariño.",
+						"link": { "label": "Ver más", "href": "mailto:hola@monteocre.example" }
+					},
+					{
+						"image": { "src": "/images/servicios/remodelacion.jpg", "alt": "Interior de una casa en obra" },
+						"label": "Remodelación",
+						"description": "Le damos una segunda vida a casas y locales sin perder su carácter.",
+						"link": { "label": "Ver más", "href": "mailto:hola@monteocre.example" }
+					}
+				]
+			}
+		},
+		{
+			"type": "icon_grid",
+			"data": {
+				"anchor": "equipo",
+				"nav_label": "Equipo",
+				"show_in_nav": true,
+				"title": "Nuestro equipo",
+				"background": "muted",
+				"items": [
+					{ "icon": { "src": "/images/equipo/arquitectura.svg", "alt": "" }, "label": "Arquitectura" },
+					{ "icon": { "src": "/images/equipo/interiorismo.svg", "alt": "" }, "label": "Interiorismo" },
+					{ "icon": { "src": "/images/equipo/paisajismo.svg", "alt": "" }, "label": "Paisajismo" },
+					{ "icon": { "src": "/images/equipo/ingenieria.svg", "alt": "" }, "label": "Ingeniería" },
+					{ "icon": { "src": "/images/equipo/obra.svg", "alt": "" }, "label": "Gestión de obra" }
+				]
+			}
+		},
+		{
+			"type": "logo_strip",
+			"data": {
+				"anchor": "clientes",
+				"nav_label": "Clientes",
+				"show_in_nav": true,
+				"title": "Han confiado en nosotros",
+				"logos": [
+					{ "image": { "src": "/images/clientes/tierra-quieta.svg", "alt": "" }, "name": "Tierra Quieta" },
+					{ "image": { "src": "/images/clientes/casa-arrullo.svg", "alt": "" }, "name": "Casa Arrullo" },
+					{ "image": { "src": "/images/clientes/nopalito.svg", "alt": "" }, "name": "Nopalito" },
+					{ "image": { "src": "/images/clientes/sascab.svg", "alt": "" }, "name": "Sascab Desarrollos" }
+				],
+				"show_brand_closing": true
+			}
+		}
+	]
+}

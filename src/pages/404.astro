@@ -1,0 +1,15 @@
+---
+import "../styles/site.css";
+import { fill } from "@orbit-cms/core/site";
+import SitePage from "@orbit-cms/core/site/layouts/SitePage.astro";
+import NotFound from "@orbit-cms/core/site/components/NotFound.astro";
+import { getNav, getSite } from "@orbit-cms/core/site/content";
+
+const site = await getSite();
+const nav = await getNav(false);
+const seo = { title: fill(site.ui.not_found.seo_title, { site: site.site_name }) };
+---
+
+<SitePage seo={seo} site={site} nav={nav} noindex>
+	<NotFound site={site} />
+</SitePage>

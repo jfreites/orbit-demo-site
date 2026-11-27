@@ -1,0 +1,15 @@
+{
+	"seo": {
+		"title": "Legalidad — Monte Ocre",
+		"description": "Términos de uso del sitio de Monte Ocre."
+	},
+	"blocks": [
+		{
+			"type": "rich_text",
+			"data": {
+				"title": "Legalidad",
+				"body": "_Texto de demostración. Monte Ocre es una marca ficticia y estos términos no tienen validez legal._\n\n## Uso del sitio\n\nEl contenido de este sitio es informativo. Las imágenes de proyectos son ilustrativas y pueden no corresponder a obras realizadas por el Estudio.\n\n## Propiedad intelectual\n\nLos textos, el logotipo y el diseño del sitio pertenecen a Monte Ocre. Las fotografías se usan bajo la [licencia de Unsplash](https://unsplash.com/license).\n\n## Cotizaciones\n\nToda cotización es una estimación hasta que se firma un contrato de servicios con alcance, plazos y honorarios definidos.\n\n## Contacto\n\nPara cualquier duda escríbenos a **hola@monteocre.example**."
+			}
+		}
+	]
+}

@@ -1,0 +1,11 @@
+# Propio del sitio: viaja con él si se copia a su propio repo
+# (Tailwind también lo usa para saber qué archivos NO revisar al buscar clases)
+node_modules/
+dist/
+dist-netlify/
+.astro/
+.netlify/
+.env
+.env.*
+!.env.example
+.snapshot-*/

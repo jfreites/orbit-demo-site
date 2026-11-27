@@ -1,0 +1,24 @@
+---
+import "../styles/site.css";
+import { getCollection } from "astro:content";
+import SitePage from "@orbit-cms/core/site/layouts/SitePage.astro";
+import BlockRenderer from "@orbit-cms/core/site/components/BlockRenderer.astro";
+import { getNav, getSite } from "@orbit-cms/core/site/content";
+
+// Una ruta por página. "home" se sirve en "/".
+export async function getStaticPaths() {
+	const pages = await getCollection("pages");
+	return pages.map((page) => ({
+		params: { slug: page.id === "home" ? undefined : page.id },
+		props: { page },
+	}));
+}
+
+const { page } = Astro.props;
+const site = await getSite();
+const nav = await getNav(page.id === "home");
+---
+
+<SitePage seo={page.data.seo} site={site} nav={nav}>
+	<BlockRenderer blocks={page.data.blocks} site={site} />
+</SitePage>
