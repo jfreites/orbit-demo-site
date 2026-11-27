@@ -1,7 +1,7 @@
-# Monte Ocre — sitio de ejemplo de `@orbit-cms/core`
+# Monte Ocre — sitio de ejemplo de `@jfreites/orbit-cms`
 
 Sitio Astro de una **marca ficticia** (estudio de arquitectura y paisaje) hecho con el paquete
-`@orbit-cms/core`. Muestra lo mínimo que necesita un sitio gestionado por orbit-cms: el sitio solo pone su
+`@jfreites/orbit-cms`. Muestra lo mínimo que necesita un sitio gestionado por orbit-cms: el sitio solo pone su
 marca; los bloques, el layout, los esquemas y la lectura del contenido vienen del paquete.
 
 ## Qué pone el sitio y qué pone el paquete
@@ -16,7 +16,7 @@ marca; los bloques, el layout, los esquemas y la lectura del contenido vienen de
 | `public/` | Logo, favicon e imágenes del contenido de respaldo |
 | `astro.config.mjs` | `contentRefresh`: en `astro dev`, el CMS avisa al publicar y la página se recarga |
 
-Todo lo demás (11 bloques, componentes, header/footer por defecto, validación con zod) es de `@orbit-cms/core`.
+Todo lo demás (11 bloques, componentes, header/footer por defecto, validación con zod) es de `@jfreites/orbit-cms`.
 
 ## Usarlo
 
@@ -35,7 +35,7 @@ en HTTPS (lerd/mkcert) los scripts `dev` ya pasan `NODE_OPTIONS=--use-system-ca`
 
 ## El paquete
 
-`@orbit-cms/core` se instala desde git (subcarpeta `packages/core` del repo de orbit-cms, fijado a un tag).
+`@jfreites/orbit-cms` se instala desde git (subcarpeta `packages/core` del repo de orbit-cms, fijado a un tag).
 Para actualizarlo, cambia el tag en `package.json` y corre `pnpm install`.
 
 ## Publicar (Netlify)

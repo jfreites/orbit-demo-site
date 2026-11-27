@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "@orbit-cms/core/site/styles/site-core.css";
+@import "@jfreites/orbit-cms/site/styles/site-core.css";
 
 /* Fuentes self-hosted (Fontsource, OFL) */
 @import "@fontsource-variable/fraunces";

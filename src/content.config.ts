@@ -1,5 +1,5 @@
-import { siteCollections } from "@orbit-cms/core/site/astro";
-import { cmsLoader } from "@orbit-cms/core/loader";
+import { siteCollections } from "@jfreites/orbit-cms/site/astro";
+import { cmsLoader } from "@jfreites/orbit-cms/loader";
 
 /*
  * Fuente del contenido:

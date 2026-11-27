@@ -2,7 +2,7 @@
 import { defineConfig } from "astro/config";
 import { loadEnv } from "vite";
 import tailwindcss from "@tailwindcss/vite";
-import { contentRefresh } from "@orbit-cms/core/site/integrations";
+import { contentRefresh } from "@jfreites/orbit-cms/site/integrations";
 
 const env = loadEnv(process.env.NODE_ENV ?? "development", process.cwd(), "");
 

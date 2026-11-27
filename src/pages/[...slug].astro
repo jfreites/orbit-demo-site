@@ -1,9 +1,9 @@
 ---
 import "../styles/site.css";
 import { getCollection } from "astro:content";
-import SitePage from "@orbit-cms/core/site/layouts/SitePage.astro";
-import BlockRenderer from "@orbit-cms/core/site/components/BlockRenderer.astro";
-import { getNav, getSite } from "@orbit-cms/core/site/content";
+import SitePage from "@jfreites/orbit-cms/site/layouts/SitePage.astro";
+import BlockRenderer from "@jfreites/orbit-cms/site/components/BlockRenderer.astro";
+import { getNav, getSite } from "@jfreites/orbit-cms/site/content";
 
 // Una ruta por página. "home" se sirve en "/".
 export async function getStaticPaths() {
