@@ -35,8 +35,8 @@ en HTTPS (lerd/mkcert) los scripts `dev` ya pasan `NODE_OPTIONS=--use-system-ca`
 
 ## El paquete
 
-`@jfreites/orbit-cms` se instala desde git (subcarpeta `packages/core` del repo de orbit-cms, fijado a un tag).
-Para actualizarlo, cambia el tag en `package.json` y corre `pnpm install`.
+[`@jfreites/orbit-cms`](https://www.npmjs.com/package/@jfreites/orbit-cms), desde npm, con versión fija en
+`package.json`. Para actualizarlo: cambia la versión y corre `pnpm install`.
 
 ## Publicar (Netlify)
 
